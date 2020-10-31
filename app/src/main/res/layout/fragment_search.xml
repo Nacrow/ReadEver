@@ -1,0 +1,109 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:backgroundTint="#FFFFFF"
+    android:foregroundTint="#03A9F4"
+    android:outlineAmbientShadowColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/keyword_search"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:drawableTint="#A56868"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:outlineSpotShadowColor="#03A9F4"
+                android:hint="Search..."
+                android:textColorLink="#3F51B5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/searchbuttonimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@null"
+                android:scaleType="fitEnd"
+                app:layout_constraintStart_toEndOf="@+id/keyword_search"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_search" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Type2">
+        <Button
+            android:id="@+id/Tragedy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="sans-serif"
+            android:text="Tragedy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black_alpha_128"
+            android:textSize="10dp"
+            android:typeface="sans" />
+        <Button
+            android:id="@+id/Fantasy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="sans-serif"
+            android:text="Fantasy"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black_alpha_128"
+            android:textSize="10dp"
+            android:typeface="sans" />
+        <Button
+            android:id="@+id/Romance"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="sans-serif"
+            android:text="Romance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black_alpha_128"
+            android:textSize="10dp"
+            android:typeface="sans" />
+            <Button
+                android:id="@+id/Detective"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="sans-serif"
+                android:text="Detective"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/black_alpha_128"
+                android:textSize="10dp"
+                android:typeface="sans" />
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listRecyclerViewSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <androidx.legacy.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="4"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

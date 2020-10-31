@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Media -->
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/bookimg"
+            android:layout_width="97dp"
+            android:layout_height="134dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/othello" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Title, secondary and supporting text -->
+            <TextView
+                android:id="@+id/Book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Othello"
+                android:textSize="20dp"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                />
+            <TextView
+                android:id="@+id/Author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="10dp"
+                android:text="William Shakespeare"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                />
+            <TextView
+                android:id="@+id/Type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Price: 3 $"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Price: 3 $"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16dp" />
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/rate_show"
+                style="@style/Widget.MaterialRatingBar.RatingBar.Indicator.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" />
+
+
+            <!-- Buttons -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/buynow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buy now"
+                    android:textColor="@color/colorPrimaryDark"
+                    style="?attr/borderlessButtonStyle"
+                    />
+                <Button
+                    android:id="@+id/Detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail"
+                    android:textColor="@color/colorPrimary"
+                    style="?attr/borderlessButtonStyle"
+                    />
+                <Button
+                    android:id="@+id/COMMENT_Detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="comment"
+                    android:textColor="@color/colorPrimary"
+                    style="?attr/borderlessButtonStyle"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="William Shakespeare"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="@color/black_alpha_128"
+                android:textSize="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

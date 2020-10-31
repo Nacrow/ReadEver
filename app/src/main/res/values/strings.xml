@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ReadEver</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="login">Sign in</string>
+    <string name="login_input_username_hint">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="login_hold_hint">Auto Login</string>
+    <string name="login_register_hint">Sign up</string>
+    <string name="register_username_hint">Username</string>
+    <string name="register_fullname_hint">Full Name</string>
+
+    <string name="loading_image">Loading image</string>
+    <string name="register_done_hint">Sign up</string>
+    <string name="register_pwd_hint">Enter your password</string>
+    <string name="register_pwd_hint2">Enter your password again</string>
+    <string name="message_pwd_error">Error password</string>
+    <string name="message_username_null">Please enter the username</string>
+</resources>
