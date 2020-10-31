@@ -17,7 +17,7 @@ A simple e-book store in android
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/homepage.png)
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/slides.png)
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/search.png)
-![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/mybook.png)
+![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/myBook.png)
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/comment&Rate.png)
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/orderlist.png)
 ## License
