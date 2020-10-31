@@ -20,6 +20,3 @@ A simple e-book store in android
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/myBook.png)
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/comment&Rate.png)
 ![image](https://github.com/Nacrow/ReadEver/blob/master/Screenshot/orderlist.png)
-## License
-
-MIT © Richard McRichface
