@@ -4,7 +4,7 @@ A simple e-book store in android
 ## Functions
 1. Sign in/Sign up
 2. A video and news display(Offline)
-3. Purchase and add credit (Not including a payment components)
+3. Purchase books and add credit (Not including payment components)
 4. Search books by keyword
 5. Fliter books by labels
 6. Read books(Not including a well-designed txt reader)
